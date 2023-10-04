@@ -1,0 +1,72 @@
+/* En tu archivo CSS, por ejemplo App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+  }
+  
+  .container {
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .table {
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #c9302c;
+}
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.table th {
+    background-color: #d9534f;
+    color: white;
+}
+.table td {
+    color: white;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+.table tr:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+
+/* Asegúrate de que la tabla se despliegue completamente y no esté comprimida */
+.table {
+    min-width: 600px;
+  }
+  
+ 
